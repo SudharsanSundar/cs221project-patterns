@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c21d08d-fd84-4727-8e78-798d9d208098" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2YbquSVHZDPUNroo7lG8gqOn0BC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv/ARC_processed/ARC_p_eval" />
+      <recent name="$PROJECT_DIR$/venv/ARC_processed/ARC_p_train" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.together_eval_script">
+    <configuration name="basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS221_Milestone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="figures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS221_Milestone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/figures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="together_eval_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS221_Milestone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/together_eval_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="together_ft_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS221_Milestone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/together_ft_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="together_pe_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS221_Milestone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/together_pe_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.together_eval_script" />
+        <item itemvalue="Python.together_ft_script" />
+        <item itemvalue="Python.basic" />
+        <item itemvalue="Python.figures" />
+        <item itemvalue="Python.together_pe_script" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c21d08d-fd84-4727-8e78-798d9d208098" name="Default Changelist" comment="" />
+      <created>1700804849079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700804849079</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="258" key="GridCell.Tab.0.bottom" timestamp="1700980614946">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1419" height="234" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1700877379828" />
+    <state width="1339" height="234" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1360.768@1440.0.1360.768" timestamp="1700901077392" />
+    <state width="1899" height="258" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1700980614945" />
+    <state width="1419" height="258" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1700959598523" />
+    <state width="1899" height="258" key="GridCell.Tab.0.center" timestamp="1700980614902">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1419" height="234" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1700877379827" />
+    <state width="1339" height="234" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1360.768@1440.0.1360.768" timestamp="1700901077391" />
+    <state width="1899" height="258" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1700980614902" />
+    <state width="1419" height="258" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1700959598517" />
+    <state width="1899" height="258" key="GridCell.Tab.0.left" timestamp="1700980614847">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1419" height="234" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1700877379825" />
+    <state width="1339" height="234" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1360.768@1440.0.1360.768" timestamp="1700901077387" />
+    <state width="1899" height="258" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1700980614847" />
+    <state width="1419" height="258" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1700959598508" />
+    <state width="1899" height="258" key="GridCell.Tab.0.right" timestamp="1700980614902">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1419" height="234" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1700877379827" />
+    <state width="1339" height="234" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1360.768@1440.0.1360.768" timestamp="1700901077391" />
+    <state width="1899" height="258" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1700980614902" />
+    <state width="1419" height="258" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1700959598517" />
+    <state x="1707" y="28" key="SettingsEditor" timestamp="1700976801926">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="200" y="23" key="SettingsEditor/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1700877355214" />
+    <state x="1629" y="20" key="SettingsEditor/0.0.1440.900/1440.0.1360.768@1440.0.1360.768" timestamp="1700900726265" />
+    <state x="1707" y="28" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1700976801925" />
+    <state x="1799" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1700867285250">
+      <screen x="1440" y="0" width="1360" height="768" />
+    </state>
+    <state x="1799" y="213" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1700867285250" />
+    <state x="1799" y="213" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1360.768@1440.0.1360.768" timestamp="1700804857988" />
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1700972616940">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1700972616940" />
+  </component>
+</project>

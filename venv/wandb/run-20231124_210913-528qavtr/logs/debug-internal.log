@@ -1,0 +1,171 @@
+2023-11-24 21:09:13,527 INFO    StreamThr :76344 [internal.py:wandb_internal():86] W&B internal server running at pid: 76344, started at: 2023-11-24 21:09:13.526232
+2023-11-24 21:09:13,530 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: status
+2023-11-24 21:09:13,531 INFO    WriterThread:76344 [datastore.py:open_for_write():85] open: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/run-528qavtr.wandb
+2023-11-24 21:09:13,535 DEBUG   SenderThread:76344 [sender.py:send():380] send: header
+2023-11-24 21:09:13,535 DEBUG   SenderThread:76344 [sender.py:send():380] send: run
+2023-11-24 21:09:13,791 INFO    SenderThread:76344 [dir_watcher.py:__init__():211] watching files in: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files
+2023-11-24 21:09:13,792 INFO    SenderThread:76344 [sender.py:_start_run_threads():1124] run started: 528qavtr with start time 1700878153.524864
+2023-11-24 21:09:13,810 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: check_version
+2023-11-24 21:09:13,810 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: check_version
+2023-11-24 21:09:13,939 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: run_start
+2023-11-24 21:09:13,940 DEBUG   HandlerThread:76344 [system_info.py:__init__():32] System info init
+2023-11-24 21:09:13,941 DEBUG   HandlerThread:76344 [system_info.py:__init__():47] System info init done
+2023-11-24 21:09:13,941 INFO    HandlerThread:76344 [system_monitor.py:start():194] Starting system monitor
+2023-11-24 21:09:13,941 INFO    SystemMonitor:76344 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-24 21:09:13,941 INFO    HandlerThread:76344 [system_monitor.py:probe():214] Collecting system info
+2023-11-24 21:09:13,942 INFO    SystemMonitor:76344 [interfaces.py:start():190] Started cpu monitoring
+2023-11-24 21:09:13,942 DEBUG   HandlerThread:76344 [system_info.py:probe():196] Probing system
+2023-11-24 21:09:13,944 INFO    SystemMonitor:76344 [interfaces.py:start():190] Started disk monitoring
+2023-11-24 21:09:13,944 INFO    SystemMonitor:76344 [interfaces.py:start():190] Started memory monitoring
+2023-11-24 21:09:13,945 INFO    SystemMonitor:76344 [interfaces.py:start():190] Started network monitoring
+2023-11-24 21:09:13,956 DEBUG   HandlerThread:76344 [gitlib.py:_init_repo():56] git repository is invalid
+2023-11-24 21:09:13,956 DEBUG   HandlerThread:76344 [system_info.py:probe():244] Probing system done
+2023-11-24 21:09:13,956 DEBUG   HandlerThread:76344 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.1', 'heartbeatAt': '2023-11-25T02:09:13.942767', 'startedAt': '2023-11-25T02:09:13.508055', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py', 'codePathLocal': 'together_eval_script.py', 'codePath': 'together_eval_script.py', 'host': 'Sudharsans-MBP.fios-router.home', 'username': 'sudharsansundar', 'executable': '/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 228.27386474609375, 'used': 8.453083038330078}}, 'memory': {'total': 8.0}}
+2023-11-24 21:09:13,956 INFO    HandlerThread:76344 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-24 21:09:13,956 INFO    HandlerThread:76344 [system_monitor.py:probe():227] Publishing system info
+2023-11-24 21:09:13,956 DEBUG   HandlerThread:76344 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-24 21:09:13,957 DEBUG   HandlerThread:76344 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-24 21:09:13,957 INFO    HandlerThread:76344 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-24 21:09:13,961 DEBUG   SenderThread:76344 [sender.py:send():380] send: files
+2023-11-24 21:09:13,961 INFO    SenderThread:76344 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-24 21:09:13,968 DEBUG   SenderThread:76344 [sender.py:send():380] send: telemetry
+2023-11-24 21:09:13,968 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-24 21:09:13,970 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-24 21:09:13,970 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: stop_status
+2023-11-24 21:09:14,242 DEBUG   SenderThread:76344 [sender.py:send():380] send: exit
+2023-11-24 21:09:14,242 INFO    SenderThread:76344 [sender.py:send_exit():585] handling exit code: 1
+2023-11-24 21:09:14,242 INFO    SenderThread:76344 [sender.py:send_exit():587] handling runtime: 0
+2023-11-24 21:09:14,243 INFO    SenderThread:76344 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-24 21:09:14,243 INFO    SenderThread:76344 [sender.py:send_exit():593] send defer
+2023-11-24 21:09:14,243 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:14,243 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-24 21:09:14,243 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:14,243 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-24 21:09:14,243 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 1
+2023-11-24 21:09:14,243 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:14,243 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-24 21:09:14,243 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:14,243 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-24 21:09:14,244 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 2
+2023-11-24 21:09:14,244 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:14,244 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-24 21:09:14,244 INFO    HandlerThread:76344 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-24 21:09:14,244 DEBUG   SystemMonitor:76344 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-24 21:09:14,244 INFO    HandlerThread:76344 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-24 21:09:14,244 DEBUG   SystemMonitor:76344 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-24 21:09:14,244 INFO    HandlerThread:76344 [interfaces.py:finish():202] Joined disk monitor
+2023-11-24 21:09:14,244 DEBUG   SystemMonitor:76344 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-24 21:09:14,244 INFO    HandlerThread:76344 [interfaces.py:finish():202] Joined memory monitor
+2023-11-24 21:09:14,245 INFO    HandlerThread:76344 [interfaces.py:finish():202] Joined network monitor
+2023-11-24 21:09:14,245 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:14,246 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-24 21:09:14,246 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 3
+2023-11-24 21:09:14,246 DEBUG   SenderThread:76344 [sender.py:send():380] send: stats
+2023-11-24 21:09:14,246 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:14,246 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-24 21:09:14,246 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:14,246 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-24 21:09:14,246 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 4
+2023-11-24 21:09:14,246 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:14,246 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-24 21:09:14,246 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:14,247 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-24 21:09:14,247 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 5
+2023-11-24 21:09:14,247 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:14,247 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-24 21:09:14,247 DEBUG   SenderThread:76344 [sender.py:send():380] send: summary
+2023-11-24 21:09:14,247 INFO    SenderThread:76344 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-24 21:09:14,247 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:14,247 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-24 21:09:14,247 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 6
+2023-11-24 21:09:14,248 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:14,248 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-24 21:09:14,248 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:14,248 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-24 21:09:14,250 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: status_report
+2023-11-24 21:09:14,283 INFO    wandb-upload_0:76344 [upload_job.py:push():131] Uploaded file /var/folders/3m/3dmm_ry91nqff_w2hrcv3zfc0000gn/T/tmpzelqc46twandb/rvfh4dft-wandb-metadata.json
+2023-11-24 21:09:14,335 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 7
+2023-11-24 21:09:14,335 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:14,335 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-24 21:09:14,335 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:14,335 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-24 21:09:14,800 INFO    Thread-12 :76344 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/config.yaml
+2023-11-24 21:09:14,801 INFO    Thread-12 :76344 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/requirements.txt
+2023-11-24 21:09:14,801 INFO    Thread-12 :76344 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/wandb-metadata.json
+2023-11-24 21:09:14,801 INFO    Thread-12 :76344 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/wandb-summary.json
+2023-11-24 21:09:14,802 INFO    Thread-12 :76344 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/output.log
+2023-11-24 21:09:15,249 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-24 21:09:16,265 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 8
+2023-11-24 21:09:16,266 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: poll_exit
+2023-11-24 21:09:16,266 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:16,267 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-24 21:09:16,268 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:16,268 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-24 21:09:16,268 INFO    SenderThread:76344 [job_builder.py:build():298] Attempting to build job artifact
+2023-11-24 21:09:16,269 INFO    SenderThread:76344 [job_builder.py:_get_source_type():439] no source found
+2023-11-24 21:09:16,269 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 9
+2023-11-24 21:09:16,269 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:16,270 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-24 21:09:16,270 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:16,270 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-24 21:09:16,270 INFO    SenderThread:76344 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-24 21:09:16,805 INFO    SenderThread:76344 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/output.log
+2023-11-24 21:09:16,806 INFO    SenderThread:76344 [dir_watcher.py:finish():388] scan: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files
+2023-11-24 21:09:16,807 INFO    SenderThread:76344 [dir_watcher.py:finish():402] scan save: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/requirements.txt requirements.txt
+2023-11-24 21:09:16,808 INFO    SenderThread:76344 [dir_watcher.py:finish():402] scan save: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/output.log output.log
+2023-11-24 21:09:16,813 INFO    SenderThread:76344 [dir_watcher.py:finish():402] scan save: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/config.yaml config.yaml
+2023-11-24 21:09:16,814 INFO    SenderThread:76344 [dir_watcher.py:finish():402] scan save: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/wandb-summary.json wandb-summary.json
+2023-11-24 21:09:16,822 INFO    SenderThread:76344 [dir_watcher.py:finish():402] scan save: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/wandb-metadata.json wandb-metadata.json
+2023-11-24 21:09:16,823 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 10
+2023-11-24 21:09:16,827 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:16,827 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-24 21:09:16,828 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:16,828 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-24 21:09:16,829 INFO    SenderThread:76344 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-24 21:09:17,021 INFO    wandb-upload_1:76344 [upload_job.py:push():131] Uploaded file /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/output.log
+2023-11-24 21:09:17,101 INFO    wandb-upload_0:76344 [upload_job.py:push():131] Uploaded file /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/requirements.txt
+2023-11-24 21:09:17,115 INFO    wandb-upload_2:76344 [upload_job.py:push():131] Uploaded file /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/config.yaml
+2023-11-24 21:09:17,130 INFO    wandb-upload_3:76344 [upload_job.py:push():131] Uploaded file /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/files/wandb-summary.json
+2023-11-24 21:09:17,336 INFO    Thread-11 :76344 [sender.py:transition_state():613] send defer: 11
+2023-11-24 21:09:17,337 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:17,337 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-24 21:09:17,337 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:17,337 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-24 21:09:17,338 INFO    SenderThread:76344 [file_pusher.py:join():181] waiting for file pusher
+2023-11-24 21:09:17,338 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 12
+2023-11-24 21:09:17,338 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:17,338 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-24 21:09:17,338 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:17,338 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-24 21:09:17,338 INFO    SenderThread:76344 [file_stream.py:finish():595] file stream finish called
+2023-11-24 21:09:17,436 INFO    SenderThread:76344 [file_stream.py:finish():599] file stream finish is done
+2023-11-24 21:09:17,436 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 13
+2023-11-24 21:09:17,436 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:17,436 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-24 21:09:17,437 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:17,437 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-24 21:09:17,437 INFO    SenderThread:76344 [sender.py:transition_state():613] send defer: 14
+2023-11-24 21:09:17,438 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: defer
+2023-11-24 21:09:17,438 INFO    HandlerThread:76344 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-24 21:09:17,438 DEBUG   SenderThread:76344 [sender.py:send():380] send: final
+2023-11-24 21:09:17,438 DEBUG   SenderThread:76344 [sender.py:send():380] send: footer
+2023-11-24 21:09:17,439 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: defer
+2023-11-24 21:09:17,439 INFO    SenderThread:76344 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-24 21:09:17,440 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-24 21:09:17,440 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: poll_exit
+2023-11-24 21:09:17,441 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: server_info
+2023-11-24 21:09:17,441 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: server_info
+2023-11-24 21:09:17,445 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-24 21:09:17,446 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-24 21:09:17,447 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-24 21:09:17,448 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: job_info
+2023-11-24 21:09:17,506 DEBUG   SenderThread:76344 [sender.py:send_request():407] send_request: job_info
+2023-11-24 21:09:17,507 INFO    MainThread:76344 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-24 21:09:17,508 INFO    MainThread:76344 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-24 21:09:17,508 INFO    MainThread:76344 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-11-24 21:09:17,510 DEBUG   HandlerThread:76344 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-24 21:09:17,511 INFO    HandlerThread:76344 [handler.py:finish():866] shutting down handler
+2023-11-24 21:09:18,454 INFO    WriterThread:76344 [datastore.py:close():294] close: /Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/wandb/run-20231124_210913-528qavtr/run-528qavtr.wandb
+2023-11-24 21:09:18,512 INFO    SenderThread:76344 [sender.py:finish():1536] shutting down sender
+2023-11-24 21:09:18,512 INFO    SenderThread:76344 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-24 21:09:18,513 INFO    SenderThread:76344 [file_pusher.py:join():181] waiting for file pusher

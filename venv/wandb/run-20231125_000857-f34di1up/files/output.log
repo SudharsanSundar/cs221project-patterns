@@ -1,0 +1,66 @@
+Pred / label:
+3,3,3
+4,4,4
+2,2,2
+/
+3,3,3
+2,2,2
+4,4,4
+Pred / label:
+1,4,1,1,4,1,4,1,4,1,1,4,1,4,1,4,1,4,1,4,1
+4,8,1,1,4,1,4,1,4,1,1,4,1,4,1,4,1,4,1,4,1,4,1
+8,8,8,8,8,8,
+/
+3,8,6,1,6,8,3
+8,8,8,8,8,8,8
+2,8,8,8,8,8,2
+1,8,8,8,8,8,1
+2,8,8,8,8,8,2
+8,8,8,8,8,8,8
+3,8,6,1,6,8,3
+Pred / label:
+2,2,2,2,2,2
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+7,7,7,7,7,
+/
+2,2,2,2,2,2,2
+3,3,3,3,3,3,3
+8,8,8,8,8,8,8
+4,4,4,4,4,4,4
+6,6,6,6,6,6,6
+1,1,1,1,1,1,1
+7,7,7,7,7,7,7
+Pred / label:
+0,0,0,0,0,0,0,0,0,0
+0,1,2,1,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,1,2,1,0,0,0,0
+/
+0,1,2,1,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,1,2,1,2,1,2,1,0
+0,0,0,0,0,0,0,0,0,0
+0,1,2,1,0,0,0,0,0,0
+0,0,0,0,0,1,2,1,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,1,2,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 141, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 111, in main
+    testresults1 = model_eval(eval_lev,
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 78, in model_eval
+    pred = model_completion(prompt, model=model)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 38, in model_completion
+    response = together.Complete.create(prompt=prompt,
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/together/complete.py", line 44, in create
+    response = create_post_request(
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/together/utils.py", line 110, in create_post_request
+    response.raise_for_status()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.together.xyz/api/inference

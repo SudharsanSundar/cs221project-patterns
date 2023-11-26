@@ -1,0 +1,17 @@
+Downloading builder script: 100%|██████████| 2.99k/2.99k [00:00<00:00, 3.64MB/s]
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 107, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 88, in main
+    ted_metric = evaluate.load('SudharsanSundar/token_edit_distance')
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/loading.py", line 748, in load
+    evaluation_module = evaluation_module_factory(
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/loading.py", line 680, in evaluation_module_factory
+    raise e1 from None
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/loading.py", line 654, in evaluation_module_factory
+    return HubEvaluationModuleFactory(
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/loading.py", line 489, in get_module
+    local_imports = _download_additional_modules(
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/loading.py", line 265, in _download_additional_modules
+    raise ImportError(
+ImportError: To be able to use SudharsanSundar/token_edit_distance, you need to install the following dependencies['Levenshtein'] using 'pip install Levenshtein' for instance'

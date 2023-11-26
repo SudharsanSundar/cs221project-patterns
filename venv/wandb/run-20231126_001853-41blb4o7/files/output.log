@@ -1,0 +1,19 @@
+
+Initial check if given file is valid for FTing: {'is_check_passed': True, 'model_special_tokens': 'we are not yet checking end of sentence tokens for this model', 'file_present': 'File found', 'file_size': 'File size 0.0 GB', 'num_samples': 200}
+[31m11-26-2023 00:18:54 - together.files - CRITICAL - Unexpected error raised by endpoint. Response status code: 500 (files.py:99)
+[31m11-26-2023 00:18:54 - together.files - CRITICAL - Response error raised: Unexpected error raised by endpoint. (files.py:141)
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/together/files.py", line 102, in upload
+    raise together.ResponseError(
+together.error.ResponseError: Unexpected error raised by endpoint.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_ft_script.py", line 85, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_ft_script.py", line 67, in main
+    off_resp = upload_ft_data(ARC_TRAIN_LLAMA_RAW_HALF)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_ft_script.py", line 26, in upload_ft_data
+    official_check = together.Files.upload(file=filepath)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/together/files.py", line 142, in upload
+    raise together.ResponseError(e)
+together.error.ResponseError: Unexpected error raised by endpoint.

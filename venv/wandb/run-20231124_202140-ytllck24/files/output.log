@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 96, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 75, in main
+    pp.print(output)
+AttributeError: module 'prettyprint' has no attribute 'print'

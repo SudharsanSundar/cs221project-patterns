@@ -1,0 +1,41 @@
+wandb_version: 1
+
+data:
+  desc: null
+  value: ARC eval
+portion:
+  desc: null
+  value: 1
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.1
+    cli_version: 0.16.0
+    framework: sklearn
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1700882607.520144
+    t:
+      1:
+      - 5
+      - 49
+      - 51
+      - 53
+      - 55
+      - 100
+      2:
+      - 5
+      - 49
+      - 51
+      - 53
+      - 55
+      - 100
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.8.1
+      5: 0.16.0
+      8:
+      - 5
+      13: darwin-x86_64

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 108, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 94, in main
+    ted_results = ted_metric.compute(predictions=preds, references=refs)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/module.py", line 450, in compute
+    self.add_batch(**inputs)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/module.py", line 514, in add_batch
+    self._enforce_nested_string_type(self.selected_feature_format[key], column[0])
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/module.py", line 761, in _enforce_nested_string_type
+    raise ValueError(f"Got a string but expected a list instead: '{obj}'")
+ValueError: Got a string but expected a list instead: '2,2,2
+2,2,2
+4,4,4'

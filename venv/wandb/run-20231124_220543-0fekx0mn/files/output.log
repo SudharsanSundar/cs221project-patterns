@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 86, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 74, in main
+    results = ARC_eval(eval_acc, 'ARC_train_docs.json')
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 50, in ARC_eval
+    eval_docs = json.load(data_source)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'

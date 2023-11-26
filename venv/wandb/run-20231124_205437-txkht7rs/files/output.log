@@ -1,0 +1,109 @@
+{   'args': {   'logprobs': None,
+                'max_tokens': 100,
+                'model': 'togethercomputer/llama-2-13b',
+                'prompt': 'Input:\n'
+                          '0,0,5\n'
+                          '0,5,0\n'
+                          '5,0,0\n'
+                          'Output:\n'
+                          '3,3,3\n'
+                          '4,4,4\n'
+                          '2,2,2\n'
+                          '\n'
+                          'Input:\n'
+                          '0,0,5\n'
+                          '0,0,5\n'
+                          '0,0,5\n'
+                          'Output:\n'
+                          '3,3,3\n'
+                          '3,3,3\n'
+                          '3,3,3\n'
+                          '\n'
+                          'Input:\n'
+                          '5,0,0\n'
+                          '0,5,0\n'
+                          '5,0,0\n'
+                          'Output:\n'
+                          '2,2,2\n'
+                          '4,4,4\n'
+                          '2,2,2\n'
+                          '\n'
+                          'Input:\n'
+                          '0,5,0\n'
+                          '0,0,5\n'
+                          '0,5,0\n'
+                          'Output:\n'
+                          '4,4,4\n'
+                          '3,3,3\n'
+                          '4,4,4\n'
+                          '\n'
+                          'Input:\n'
+                          '0,0,5\n'
+                          '5,0,0\n'
+                          '0,5,0\n'
+                          'Output:\n',
+                'repetition_penalty': 0,
+                'stop': ['\n\n'],
+                'temperature': 0,
+                'top_k': 50,
+                'top_p': 0.7},
+    'id': '82b643c95e8f8ca2-EWR',
+    'model': 'togethercomputer/llama-2-13b',
+    'model_owner': '',
+    'num_returns': 1,
+    'output': {   'choices': [{'text': '3,3,3\n3,3,3\n4,4,4\n\n'}],
+                  'result_type': 'language-model-inference'},
+    'prompt': [   'Input:\n'
+                  '0,0,5\n'
+                  '0,5,0\n'
+                  '5,0,0\n'
+                  'Output:\n'
+                  '3,3,3\n'
+                  '4,4,4\n'
+                  '2,2,2\n'
+                  '\n'
+                  'Input:\n'
+                  '0,0,5\n'
+                  '0,0,5\n'
+                  '0,0,5\n'
+                  'Output:\n'
+                  '3,3,3\n'
+                  '3,3,3\n'
+                  '3,3,3\n'
+                  '\n'
+                  'Input:\n'
+                  '5,0,0\n'
+                  '0,5,0\n'
+                  '5,0,0\n'
+                  'Output:\n'
+                  '2,2,2\n'
+                  '4,4,4\n'
+                  '2,2,2\n'
+                  '\n'
+                  'Input:\n'
+                  '0,5,0\n'
+                  '0,0,5\n'
+                  '0,5,0\n'
+                  'Output:\n'
+                  '4,4,4\n'
+                  '3,3,3\n'
+                  '4,4,4\n'
+                  '\n'
+                  'Input:\n'
+                  '0,0,5\n'
+                  '5,0,0\n'
+                  '0,5,0\n'
+                  'Output:\n'],
+    'status': 'finished',
+    'subjobs': [],
+    'tags': {}}
+##################
+3,3,3
+3,3,3
+4,4,4
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 105, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 88, in main
+    acc_metric = dataset.load_metric('accuracy')
+NameError: name 'dataset' is not defined

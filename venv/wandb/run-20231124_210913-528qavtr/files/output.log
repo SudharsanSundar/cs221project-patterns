@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 108, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 94, in main
+    ted_results = ted_metric.compute(predictions=preds, references=refs)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/module.py", line 450, in compute
+    self.add_batch(**inputs)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/evaluate/module.py", line 515, in add_batch
+    batch = self.selected_feature_format.encode_batch(batch)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 1900, in encode_batch
+    encoded_batch[key] = [encode_nested_example(self[key], obj) for obj in column]
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 1900, in <listcomp>
+    encoded_batch[key] = [encode_nested_example(self[key], obj) for obj in column]
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 1293, in encode_nested_example
+    return [encode_nested_example(schema.feature, o, level=level + 1) for o in obj]
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 1293, in <listcomp>
+    return [encode_nested_example(schema.feature, o, level=level + 1) for o in obj]
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 1298, in encode_nested_example
+    return schema.encode_example(obj) if obj is not None else None
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 514, in encode_example
+    return int(value)
+ValueError: invalid literal for int() with base 10: ','

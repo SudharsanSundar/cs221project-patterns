@@ -1,0 +1,123 @@
+{   'args': {   'logprobs': None,
+                'max_tokens': 100,
+                'model': 'togethercomputer/llama-2-13b',
+                'prompt': 'Input:\n'
+                          '0,0,5\n'
+                          '0,5,0\n'
+                          '5,0,0\n'
+                          'Output:\n'
+                          '3,3,3\n'
+                          '4,4,4\n'
+                          '2,2,2\n'
+                          '\n'
+                          'Input:\n'
+                          '0,0,5\n'
+                          '0,0,5\n'
+                          '0,0,5\n'
+                          'Output:\n'
+                          '3,3,3\n'
+                          '3,3,3\n'
+                          '3,3,3\n'
+                          '\n'
+                          'Input:\n'
+                          '5,0,0\n'
+                          '0,5,0\n'
+                          '5,0,0\n'
+                          'Output:\n'
+                          '2,2,2\n'
+                          '4,4,4\n'
+                          '2,2,2\n'
+                          '\n'
+                          'Input:\n'
+                          '0,5,0\n'
+                          '0,0,5\n'
+                          '0,5,0\n'
+                          'Output:\n'
+                          '4,4,4\n'
+                          '3,3,3\n'
+                          '4,4,4\n'
+                          '\n'
+                          'Input:\n'
+                          '0,0,5\n'
+                          '5,0,0\n'
+                          '0,5,0\n'
+                          'Output:\n',
+                'repetition_penalty': 0,
+                'stop': ['\n\n'],
+                'temperature': 0,
+                'top_k': 50,
+                'top_p': 0.7},
+    'id': '82b6466c68bb6a52-EWR',
+    'model': 'togethercomputer/llama-2-13b',
+    'model_owner': '',
+    'num_returns': 1,
+    'output': {   'choices': [{'text': '4,4,4\n2,2,2\n4,4,4\n\n'}],
+                  'result_type': 'language-model-inference'},
+    'prompt': [   'Input:\n'
+                  '0,0,5\n'
+                  '0,5,0\n'
+                  '5,0,0\n'
+                  'Output:\n'
+                  '3,3,3\n'
+                  '4,4,4\n'
+                  '2,2,2\n'
+                  '\n'
+                  'Input:\n'
+                  '0,0,5\n'
+                  '0,0,5\n'
+                  '0,0,5\n'
+                  'Output:\n'
+                  '3,3,3\n'
+                  '3,3,3\n'
+                  '3,3,3\n'
+                  '\n'
+                  'Input:\n'
+                  '5,0,0\n'
+                  '0,5,0\n'
+                  '5,0,0\n'
+                  'Output:\n'
+                  '2,2,2\n'
+                  '4,4,4\n'
+                  '2,2,2\n'
+                  '\n'
+                  'Input:\n'
+                  '0,5,0\n'
+                  '0,0,5\n'
+                  '0,5,0\n'
+                  'Output:\n'
+                  '4,4,4\n'
+                  '3,3,3\n'
+                  '4,4,4\n'
+                  '\n'
+                  'Input:\n'
+                  '0,0,5\n'
+                  '5,0,0\n'
+                  '0,5,0\n'
+                  'Output:\n'],
+    'status': 'finished',
+    'subjobs': [],
+    'tags': {}}
+##################
+4,4,4
+2,2,2
+4,4,4
+/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py:89: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  acc_metric = datasets.load_metric('accuracy')
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 106, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 93, in main
+    acc_results = acc_metric.compute(predictions=preds, references=refs)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/metric.py", line 442, in compute
+    self.add_batch(**inputs)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/metric.py", line 494, in add_batch
+    batch = self.info.features.encode_batch(batch)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 1900, in encode_batch
+    encoded_batch[key] = [encode_nested_example(self[key], obj) for obj in column]
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 1900, in <listcomp>
+    encoded_batch[key] = [encode_nested_example(self[key], obj) for obj in column]
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 1298, in encode_nested_example
+    return schema.encode_example(obj) if obj is not None else None
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/datasets/features/features.py", line 514, in encode_example
+    return int(value)
+ValueError: invalid literal for int() with base 10: '4,4,4\n2,2,2\n4,4,4\n\n'

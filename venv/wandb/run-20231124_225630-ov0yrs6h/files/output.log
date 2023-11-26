@@ -1,0 +1,32 @@
+Pred / label:
+ 4,4,4
+3,3,3
+4,4,4
+/
+ 3,3,3
+2,2,2
+4,4,4
+Pred / label:
+ 8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+/
+ 3,8,6,1,6,8,3
+8,8,8,8,8,8,8
+2,8,8,8,8,8,2
+1,8,8,8,8,8,1
+2,8,8,8,8,8,2
+8,8,8,8,8,8,8
+3,8,6,1,6,8,3
+Traceback (most recent call last):
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 138, in <module>
+    main()
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 108, in main
+    testresults1 = model_eval(eval_lev,
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 75, in model_eval
+    pred = model_completion(prompt, model=model)
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/together_eval_script.py", line 37, in model_completion
+    response = together.Complete.create(prompt=prompt,
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/together/complete.py", line 44, in create
+    response = create_post_request(
+  File "/Users/sudharsansundar/PycharmProjects/CS221_Milestone/venv/lib/python3.8/site-packages/together/utils.py", line 103, in create_post_request
+    raise together.RateLimitError(
+together.error.RateLimitError: Too many requests received. Please pace your requests.
